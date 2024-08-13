@@ -1,4 +1,7 @@
-
+![Screenshot](https://github.com/leslieyjkim/Puzzle_DragDrop_18pcs/blob/main/main.png?raw=true)
+# DEMO
+Click here! 
+https://leslieyjkim.github.io/Puzzle_DragDrop_18pcs/
 
 # Image splitter / Image resizing
 https://pinetools.com/split-image
