@@ -3,6 +3,6 @@
 Click here! 
 
 
-# Image splitter (into 18pcs) / Image resizing (618*309 pixels / each 103*103 pixels)
+# Image splitter / Image resizing
 https://pinetools.com/split-image
-
+Image splitter (into 18pcs) / Image resizing (618*309 pixels / each 103*103 pixels)
