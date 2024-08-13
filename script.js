@@ -99,21 +99,10 @@ function dragStart(e) {         //when the drag action starts.
 function dragOver(e) { e.preventDefault() }  //Prevents the default behavior when dragging over an element. 
 
 function drop(e) {
-	console.log(">>> event e");
-	console.log(e);
 	e.preventDefault();
-	console.log(">>> e.dataTransfer")
-	console.log(e.dataTransfer)
 	const data = e.dataTransfer.getData("text"); //Gets the ID of the dragged element. Retrieves the data that was set during the 'dragStart'.
-	console.log(">>>data");
-	console.log(data,data.length);
 	// if (data.length != 2) {                      //Checks if the length of the data(the ID) is not equal 2. IDs with a length of 2 are skipped.
 		const element = document.getElementById(data);
-		console.log(">>> this and element only");
-		console.log(this, element);
-		console.log(">>> this.children");
-		console.log(this.children[0].currentSrc);
-		console.log(element.children[0].currentSrc);
 		if (this.children.length == 0) 
 			this.appendChild(element.children[0]);
 		else if (this.children.length == 1) {
