@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Puzzle</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- This line is a preconnection hint that tells the browser to establish early connections to fonts.googleapis.com. This can help speed up the loading of resources from this domain by reducing connection time. -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- this preconnect hint tells the browser to establish early connections to fonts.gstatic.com, which is where the font files are hosted. The crossorigin attribute is used to enable cross-origin resource sharing, which can help avoid certain security issues when loading resources. -->
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <!-- This line includes a link to the CSS file that contains the styles for the Rubik font. The href attribute specifies the URL of the CSS file hosted on Google Fonts. The rel="stylesheet" attribute indicates that this link is used to load a stylesheet.
+             family=Rubik specifies the font family you want to include.
+             display=swap is a font-display strategy that ensures text remains visible during webfont loading. It uses fallback fonts until the custom font is loaded. -->
+	</head>
+
+	<body>
+		<div id="screen">
+			<div id="title">
+				<h1>Unlock your potential with our brain-teasing puzzles!</h1>
+				<h2>Preview</h2>
+				<img alt="Puzzle preview" src="puzzle.jpg">
+			</div>
+			<div id="puzzle">
+				<div id="piecesBox"></div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+
+</html>
